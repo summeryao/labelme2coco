@@ -21,7 +21,7 @@ class labelme2coco(object):
         self.save_json()
     def data_transfer(self):
         for num, json_file in enumerate(self.labelme_json):
-            #print(json_file)
+            print(json_file)
             with open(json_file,"r") as f:
                 data = ujson.load(f)
                 imageDealed = self.deal_image(data, num)           
