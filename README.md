@@ -10,3 +10,7 @@ python labelme2coco.py /first/dir /second/dir1/dir2 --output coco.json
 # expend
 1. 本项目是基于https://github.com/Tony607/labelme2coco 做了些优化，提升了速度，降低了运行内存。
 2. 主要是将json替换成了ujson。不导入labelme包
+<<<<<<< HEAD
+=======
+
+>>>>>>> e97ebd577065ad2bcc0d6a1cca390a9c382b34b1
